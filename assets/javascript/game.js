@@ -21,3 +21,10 @@ function resetCrystals() {
         $(".crystal-images").append(crystal);
     }
 }
+
+function resetHTML() {
+    $(".target-number").html(targetNumber);
+    $(".win-lose-counter").html("<p>Wins: " + wins + "</p>" + "<p>Losses: " + "</p>");
+    $(".score-number").html(counter);
+    $(".crystal-images").empty();
+}
