@@ -46,7 +46,7 @@ function crystalClick() {
         wins++;
         totalReset();
     } else (counter > targetNumber) {
-        losses++
+        losses++;
         totalReset();
     }
 }

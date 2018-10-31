@@ -1,0 +1,20 @@
+/* stylesheet */
+
+body {
+    background-image: url("#");
+    margin: 0px;
+    padding: 0pc;
+}
+
+.jumbotron {
+    background-color: aqua;
+    color: white;
+}
+
+.target-number {
+    font-size: 30px;
+    background-color: blueviolet;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
