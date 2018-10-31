@@ -18,3 +18,26 @@ body {
     border-color: black;
     border-width: 5px;
 }
+
+.win-lose-counter {
+    background-color: white;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 5px;
+}
+
+.crystal-images {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.total-score {
+    color: white;
+    background-color: coral;
+}
+
+.score-number {
+    color: white;
+    background-color: cornflowerblue;
+    font-size: 30px;
+}
