@@ -28,3 +28,10 @@ function resetHTML() {
     $(".score-number").html(counter);
     $(".crystal-images").empty();
 }
+
+function totalReset() {
+    randomTargetNumber ();
+    counter = 0;
+    resetHTML ();
+    resetCrystals ();
+}
