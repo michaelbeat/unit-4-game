@@ -35,3 +35,18 @@ function totalReset() {
     resetHTML ();
     resetCrystals ();
 }
+
+
+// Break
+
+function crystalClick() {
+    counter += parseInt($(this).attr("value"));
+    $(".score-number").html(counter);
+    if (counter === targetNumber) {
+        wins++;
+        totalReset();
+    } else if (counter > targetNumber) {
+        losses++
+        totalReset();
+    }
+}
