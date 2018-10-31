@@ -4,7 +4,7 @@ var targetNumber = "";
 var wins = 0;
 var losses = 0;
 var counter = 0;
-var images = [];  //NEED IMAGES 
+var images = ["./assets/images/blue-crystal.png", "./assets/images/red-crystal.png", "./assets/images/orange-crystal.png", "./assets/images/green-crystal.png"];  
 
 
 function randomTargetNumber() {
