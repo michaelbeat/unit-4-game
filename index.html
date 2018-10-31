@@ -12,22 +12,26 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <div class="header">
-    <h1>Game of Crystals</h1>
+    <div class="jumbotron">
+    <h1 class="text-center">Game of Crystals</h1>
     </div>
 
     <div class="container">
-        <h4 id="directions">
-            <p>You will be given a random number at the start of the game.</p>
-            <br>
-            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-            <br>
-            <p>You win the game by matching your total score to the random number and you lose the game if your total score goes above the random number.</p>
-            <br>
-            <p>The value of each crystal is hidden from you until you click on it.</p>
-            <br>
-            <p>Each time the game starts, the value of each crystal will change/be different.</p>
-        </h4>
-    </div>
+        <div class="row">
+            <div class="col-md-5">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Rules of the Game!</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>You will be given a random number at the start of the game.</p>
+                        <p>There are four crystals below. By clicking on any of the crystals, you will add a specific amount of points to your score.</p>
+                        <p>You will win when you successfully match your score with that of the random number but you will lose if your score goes over the number (Think Price is Right!)</p>
+                        <p>To make the game more interesting, the value of each crystal is hidden until you click on it and will change with each round</p>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end of "row" div -->
+    </div> <!-- end of container -->
 </body>
 </html>
