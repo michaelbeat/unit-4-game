@@ -37,7 +37,7 @@ function totalReset() {
 }
 
 
-// Break
+
 
 function crystalClick() {
     counter += parseInt($(this).attr("value"));
