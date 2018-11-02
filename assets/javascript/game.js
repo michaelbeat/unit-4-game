@@ -8,7 +8,7 @@ var images = ["./assets/images/blue-crystal.png", "./assets/images/red-crystal.p
 
 
 function randomTargetNumber() {
-    targetNumber = Math.floor(Math.random() * 100) + 12;
+    targetNumber = Math.floor(Math.random() * 102) + 19;
 }
 
 function resetCrystals() {
@@ -16,7 +16,7 @@ function resetCrystals() {
         var crystal = $("<img>");
         crystal.addClass("crystal");
         crystal.attr("src", images[i]);
-        crystal.attr("value", (Math.floor(Math.random() * 102) + 19));
+        crystal.attr("value", (Math.floor(Math.random() * 12) + 1));
         crystal.attr("height", "100");
         $(".crystal-images").append(crystal);
     }
@@ -49,6 +49,10 @@ function crystalClick() {
         losses++;
         totalReset();
     }
+    console.log(crystalClick);
 }
 
+
 $(document).on("click", ".crystal", crystalClick);
+
+

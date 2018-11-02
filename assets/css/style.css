@@ -45,7 +45,18 @@ body {
 .jrow {
     content: "";
     display: table;
+    margin: auto;
     clear: both;
+}
+
+button {
+    display: inline-block;
+    height: 150px;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    border-style: none;
+    
 }
 
 #jewel1 {
