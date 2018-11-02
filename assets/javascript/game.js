@@ -49,7 +49,7 @@ function crystalClick() {
         losses++;
         totalReset();
     }
-    console.log(crystalClick);
+    
 }
 
 
