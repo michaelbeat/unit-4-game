@@ -41,3 +41,9 @@ body {
     background-color: cornflowerblue;
     font-size: 30px;
 }
+
+#jewel1 {
+    margin-left: 15px;
+    width: 15%;
+    float: left;
+}
