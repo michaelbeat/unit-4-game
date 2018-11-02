@@ -42,7 +42,31 @@ body {
     font-size: 30px;
 }
 
+.jrow {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 #jewel1 {
+    margin-left: 15px;
+    width: 15%;
+    float: left;
+}
+
+#jewel2 {
+    margin-left: 15px;
+    width: 15%;
+    float: left;
+}
+
+#jewel3 {
+    margin-left: 15px;
+    width: 15%;
+    float: left;
+}
+
+#jewel4 {
     margin-left: 15px;
     width: 15%;
     float: left;
