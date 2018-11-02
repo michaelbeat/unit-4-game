@@ -7,3 +7,5 @@ To win, you will need to match the random number exactly. Otherwise, you will lo
 As a reminder: each crystal has a different value, to win you match the random number, each game the crystal values will change.
 
 Only the strong survive.
+
+// Credit is due to Ryan Leach and Zac Saltzman //
